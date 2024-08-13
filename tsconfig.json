@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "target": "es5", // adjust based on your project requirements
+    "module": "commonjs", // or "esnext" if using ES modules
+    "strict": true,
+    "jsx": "react", // if using React
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "include": ["src/**/*"]
+}
+

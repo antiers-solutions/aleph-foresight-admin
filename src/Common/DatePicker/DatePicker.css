@@ -1,0 +1,77 @@
+.datePicker {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.ant-space {
+  width: 100%;
+}
+
+.ant-picker {
+  max-width: 506px;
+  width: 100%;
+  height: 50px;
+  background: var(--InputBg);
+  border: unset;
+  color: var(--white);
+  font-size: var(--largeParaGraph16);
+  border-radius: 10px;
+  font-family: 500;
+}
+.ant-picker:hover {
+  background: var(--InputBg);
+}
+@media (max-width: 767px) {
+  .ant-picker {
+    max-width: unset;
+  }
+}
+@media (max-width: 991px) {
+  .ant-picker {
+    height: 45px;
+  }
+}
+.ant-picker .ant-picker-input input {
+  background: var(--InputBg);
+  font-size: var(--largeParaGraph16);
+  font-family: 500;
+}
+.ant-picker .ant-picker-input input::-moz-placeholder {
+  color: var(--white);
+}
+.ant-picker .ant-picker-input input::placeholder {
+  color: var(--white);
+}
+.ant-picker .ant-picker-input .ant-picker-suffix .anticon svg {
+  color: var(--white) !important;
+}
+
+.ant-picker-now a {
+  color: var(--sidebarTab);
+}
+
+.ant-picker-header button {
+  color: var(--white) !important;
+}
+
+.ant-picker-content th {
+  color: var(--white) !important;
+}
+
+.ant-picker-cell {
+  color: var(--grayDark636364) !important;
+}
+
+.ant-picker-cell-in-view {
+  color: var(--white) !important;
+}
+
+.ant-picker-dropdown .ant-picker-panel-container {
+  background: var(--InputBg);
+}
+
+.ant-picker-cell-inner::before {
+  border: 1px solid var(--sidebarTab) !important;
+}/*# sourceMappingURL=DatePicker.css.map */

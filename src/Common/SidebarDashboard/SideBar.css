@@ -1,0 +1,101 @@
+.sideBar_logo {
+  display: flex;
+  justify-content: center;
+  padding: 27px 0;
+  position: relative;
+  align-items: center;
+  gap: 8px;
+}
+@media (max-width: 991px) {
+  .sideBar_logo {
+    padding: 9px 0;
+    margin-bottom: 25px;
+  }
+}
+.sideBar_menuItem a {
+  text-decoration: none;
+  display: flex;
+  gap: 10px;
+  color: var(--whiteFFF);
+  height: 55px;
+  align-items: center;
+  font-size: var(--largeParaGraph16);
+  font-weight: 500;
+  padding: 0px 40px;
+  margin: 0px 20px;
+  white-space: nowrap;
+}
+.sideBar_menuItem_top ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 10px;
+}
+.sideBar_menuItem_top ul li {
+  margin-bottom: 5px;
+}
+.sideBar_menuItem_top ul li a span {
+  line-height: 12px;
+}
+.sideBar_menuItem_top ul li b {
+  font-weight: 500;
+}
+.sideBar_menuItem_top ul li:hover a {
+  background-color: var(--sidebarTab);
+  border-radius: 10px;
+  color: var(--Mainblack);
+}
+.sideBar_menuItem_top ul li:hover a svg path {
+  fill: var(--Mainblack);
+}
+.sideBar_menuItem_top ul li .active {
+  background-color: var(--sidebarTab);
+  border-radius: 10px;
+  color: var(--Mainblack);
+}
+.sideBar_menuItem_top ul li .active svg path {
+  fill: var(--Mainblack);
+}
+.sideBar_menuItem_logout {
+  display: flex;
+  text-align: center;
+  padding: 10px;
+  padding: 10px 0 50px 0;
+}
+@media (max-width: 991px) {
+  .sideBar_menuItem_logout {
+    padding: 20px 10px;
+  }
+}
+.sideBar_menuItem_logout ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 10px;
+}
+.sideBar_menuItem_logout ul li {
+  margin-bottom: 5px;
+}
+.sideBar_menuItem_logout ul li a {
+  width: 100%;
+}
+.sideBar_menuItem_logout ul li a span {
+  line-height: 12px;
+}
+.sideBar_menuItem_logout ul li b {
+  font-weight: 500;
+}
+.sideBar_menuItem_logout ul li:hover a {
+  background-color: var(--sidebarTab);
+  border-radius: 10px;
+  color: var(--Mainblack);
+}
+.sideBar_menuItem_logout ul li:hover a svg path {
+  fill: var(--Mainblack);
+}
+.sideBar_menuItem_logout ul li .active {
+  background-color: var(--sidebarTab);
+  border-radius: 10px;
+  color: var(--Mainblack);
+}
+.sideBar_menuItem_logout ul li .active svg path {
+  fill: var(--Mainblack);
+}/*# sourceMappingURL=SideBar.css.map */

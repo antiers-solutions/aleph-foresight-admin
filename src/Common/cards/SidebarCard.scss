@@ -1,0 +1,22 @@
+.sidebarCard {
+  border-radius: 10px;
+  padding: 23px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--settingcard);
+
+  &__text {
+    color: var(--text-D8D8D8);
+    font-size: var(--largeParaGraph16);
+    margin-top: 5px;
+    text-align: center;
+    font-weight: 500;
+  }
+
+  &__heading {
+    color: var(--white);
+    font-size: var(--heading26);
+  }
+}

@@ -1,0 +1,37 @@
+.header {
+  padding: 17px 25px 18px 25px;
+  background-color: var(--bgdash);
+  position: sticky;
+  top: 0;
+  @media (max-width:575px) {
+    padding:15px;
+  }
+  &_heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    h2 {
+      font-size: var(--headingFour);
+      color: var(--white);
+      font-weight: 600;
+    }
+    &_profile {
+      display: flex;
+      align-items: center;
+      gap: 13px;
+      padding: 9px 14px 9px 9px;
+      background-color: var(--sidebarTab);
+      border-radius: 10px;
+      color: var(--Mainblack);
+      h4 {
+        font-size: var(--regularParagraph);
+        font-weight: 600;
+      }
+      p {
+        font-size: var(--xtrasmallParagraph);
+        font-weight: 500;
+      }
+    }
+  }
+}

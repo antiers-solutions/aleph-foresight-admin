@@ -1,0 +1,69 @@
+.customModal {
+  max-width: calc(100vw - 30px) !important;
+  margin: 15px auto !important;
+}
+.customModal .ant-modal-content {
+  background-color: var(--popupbg);
+  padding: 30px 36px;
+}
+@media (max-width: 575px) {
+  .customModal .ant-modal-content {
+    padding: 20px;
+  }
+}
+.customModal .ant-modal-content .ant-modal-header {
+  background-color: transparent;
+}
+.customModal .ant-modal-content .ant-modal-header .ant-modal-title {
+  color: var(--white);
+  font-size: var(--heading26);
+  font-weight: 700;
+  background-color: transparent;
+}
+.customModal .ant-modal-content .ant-modal-body .plateformContent p {
+  color: var(-- text-D8D8D8);
+  font-size: var(--largeParaGraph16);
+  padding-bottom: 20px;
+}
+.customModal .ant-modal-content .ant-modal-body .plateformContent .ant-form-item-label label {
+  color: var(--text-D8D8D8);
+}
+.customModal .ant-modal-content .ant-modal-body .plateformContent .ant-form-item-label label::after {
+  display: none;
+}
+.customModal .ant-modal-content .ant-modal-body .plateformContent .ant-form-item-control {
+  flex: unset;
+}
+.customModal .ant-modal-content .ant-modal-body .plateformContent .input-otp {
+  gap: 20px;
+}
+.customModal .ant-modal-content .ant-modal-body .plateformContent .input-otp__field {
+  height: 60px;
+  max-width: 58px;
+  border-radius: 10px;
+  background-color: var(--bg-253B4E);
+  border: 1px solid var(--sidebarTab);
+  caret-color: var(--white);
+  color: var(--white);
+}
+@media (max-width: 575px) {
+  .customModal .ant-modal-content .ant-modal-body .plateformContent .input-otp__field {
+    height: 40px;
+    height: 40px;
+  }
+}
+.customModal .ant-modal-content .ant-modal-body .plateformContent .customInput {
+  padding-top: 16px;
+}
+.customModal .ant-modal-content .ant-modal-body .plateformContent .customInput input {
+  background-color: var(--bg-253B4E) !important;
+  outline: none;
+}
+.customModal .ant-modal-content .ant-modal-close span svg {
+  fill: var(--white);
+}
+
+.ant-modal-wrap {
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+}/*# sourceMappingURL=CustomModal.css.map */

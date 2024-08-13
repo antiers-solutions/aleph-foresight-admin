@@ -1,0 +1,133 @@
+.dashboardSummary h3 {
+  font-size: var(--headingFour);
+  font-weight: 600;
+  color: var(--white);
+  padding-bottom: 25px;
+}
+.dashboardSummary__card {
+  display: flex;
+  gap: 25px;
+}
+@media (max-width: 1499px) {
+  .dashboardSummary__card {
+    gap: 15px;
+  }
+}
+@media (max-width: 1366px) {
+  .dashboardSummary__card {
+    flex-wrap: wrap;
+  }
+}
+.dashboardSummary__card div {
+  background: var(--cardbg);
+  width: 100%;
+  flex: 1;
+}
+@media (max-width: 1366px) {
+  .dashboardSummary__card div {
+    max-width: 42%;
+    flex: unset;
+  }
+}
+@media (max-width: 767px) {
+  .dashboardSummary__card div {
+    max-width: 100%;
+  }
+}
+.dashboardSummary__revenue {
+  display: flex;
+  gap: 20px;
+  padding: 25px 0;
+}
+@media (max-width: 1366px) {
+  .dashboardSummary__revenue {
+    flex-wrap: wrap;
+  }
+}
+.dashboardSummary__revenue__graph {
+  border-radius: 14px;
+  background: var(--popupbg);
+  padding: 20px;
+  max-width: 1000px;
+  max-height: 300px;
+  height: 100%;
+  width: 100%;
+}
+@media (max-width: 1800px) {
+  .dashboardSummary__revenue__graph {
+    max-width: 800px;
+  }
+}
+@media (max-width: 1670px) {
+  .dashboardSummary__revenue__graph {
+    max-width: 650px;
+  }
+}
+@media (max-width: 1475px) {
+  .dashboardSummary__revenue__graph {
+    max-width: 540px;
+  }
+}
+@media (max-width: 1366px) {
+  .dashboardSummary__revenue__graph {
+    max-width: 100%;
+  }
+}
+.dashboardSummary__revenue__graph .revenueHead {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.dashboardSummary__revenue__graph .revenueHead h4 {
+  font-size: var(--largeParaGraph);
+  color: var(--white);
+}
+.dashboardSummary__revenue__graph .revenueHead .customSelect .ant-select-selector {
+  background: transparent;
+  border: 1px solid var(--sidebarTab);
+  border-color: var(--sidebarTab);
+  color: var(--white);
+}
+.dashboardSummary__revenue__graph .revenueHead .customSelect .ant-select-selector:hover,
+.dashboardSummary__revenue__graph .revenueHead .customSelect .ant-select-selector :active {
+  border-color: var(--sidebarTab) !important;
+}
+.dashboardSummary__revenue__graph .revenueHead .customSelect .ant-select-selection-item {
+  color: var(--white);
+}
+.dashboardSummary__revenue__graph .revenueHead .customSelect .ant-select-arrow span svg {
+  fill: var(--white);
+}
+.dashboardSummary__revenue__graph canvas {
+  max-height: 237px;
+  height: 100%;
+}
+@media (max-width: 1366px) {
+  .dashboardSummary__revenue__cards {
+    width: 100%;
+  }
+}
+.dashboardSummary__revenue__cards .ant-row .ant-col div {
+  background: var(--settingcard);
+  min-height: 95px;
+  min-width: 173px;
+}
+.dashboardSummary__revenue__cards .ant-row .ant-col div p {
+  max-width: 205px;
+}
+@media (max-width: 1366px) {
+  .dashboardSummary__revenue__cards .ant-row .ant-col div p {
+    max-width: unset;
+  }
+}
+
+.ant-select-dropdown {
+  background-color: var(--popupbg);
+  color: var(--white);
+}
+.ant-select-dropdown .ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+  color: var(--grayDark636364);
+}
+.ant-select-dropdown .ant-select-item {
+  color: var(--white);
+}/*# sourceMappingURL=Dashboard.css.map */

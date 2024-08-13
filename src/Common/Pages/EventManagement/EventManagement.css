@@ -1,0 +1,39 @@
+.eventSelectItem {
+  height: 50px;
+}
+@media (max-width: 767px) {
+  .eventSelectItem {
+    height: 45px;
+  }
+}
+.eventSelectItem .ant-select-selector {
+  background: transparent !important;
+  border: 1px solid var(--sidebarTab);
+  border-color: var(--sidebarTab) !important;
+  color: var(--sidebarTab) !important;
+  min-width: 155px;
+  border-radius: 10px;
+}
+.eventSelectItem .ant-select-selector:hover,
+.eventSelectItem .ant-select-selector :active {
+  border-color: var(--sidebarTab) !important;
+}
+.eventSelectItem .ant-select-selection-item {
+  color: var(--sidebarTab) !important;
+  font-size: var(--largeParaGraph16);
+}
+.eventSelectItem .ant-select-arrow span svg {
+  fill: var(--sidebarTab);
+}
+
+.ant-select-dropdown {
+  background-color: var(--popupbg);
+  color: var(--white);
+}
+.ant-select-dropdown .ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+  color: var(--black);
+  font-weight: normal;
+}
+.ant-select-dropdown .ant-select-item {
+  color: var(--white);
+}/*# sourceMappingURL=EventManagement.css.map */

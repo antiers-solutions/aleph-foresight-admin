@@ -1,0 +1,64 @@
+.buttonCustom {
+  height: 55px;
+  cursor: pointer;
+  background-color: var(--sidebarTab);
+  border-radius: 10px;
+  color: var(--Mainblack);
+  font-size: var(--largeParaGraph16);
+  font-weight: 500;
+  border: none;
+  transition: all 0.4s ease-in-out;
+}
+.buttonCustom:hover {
+  background-color: var(--sidebarTab);
+  opacity: 0.9;
+}
+@media (max-width: 991px) {
+  .buttonCustom {
+    height: 45px;
+  }
+}
+.buttonCustom.disable {
+  background-color: var(--sidebarTab);
+  opacity: 0.5;
+}
+.buttonCustom.disable:hover {
+  background-color: var(--sidebarTab);
+  opacity: 0.5;
+  cursor: not-allowed;
+  color: var(--Mainblack);
+}
+.buttonCustom.transbtn {
+  background-color: transparent;
+  border: 1px solid var(--sidebarTab);
+  color: var(--sidebarTab);
+}
+.buttonCustom.walletBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 25px 17px;
+  max-width: 214px;
+  width: 100%;
+  white-space: nowrap;
+}
+@media (max-width: 767px) {
+  .buttonCustom.walletBtn {
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    padding: 10px;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+}
+
+.btnBorder {
+  border: 1px solid var(--sidebarTab) !important;
+  background: var(--Mainblack) !important;
+  color: var(--sidebarTab) !important;
+}
+.btnBorder:hover {
+  background: var(--sidebarTab) !important;
+  color: var(--Mainblack) !important;
+}/*# sourceMappingURL=ButtonCustom.css.map */

@@ -1,0 +1,88 @@
+.dashLayout {
+  min-height: 100vh;
+  background-color: var(--offWhite);
+  display: flex;
+}
+.dashLayout_sidebar {
+  transition: all 0.5s ease;
+  background: var(--settingcard);
+}
+.dashLayout_sidebar_transition {
+  transition: all 0.3s ease;
+}
+.dashLayout_content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  border-bottom: unset;
+  width: 100%;
+  overflow: auto;
+}
+.dashLayout_content_body {
+  overflow-x: auto;
+  overflow-y: auto;
+  padding: 25px 25px 100px 25px;
+  height: calc(100vh - 190px);
+  background-color: var(--Mainblack);
+}
+@media (max-width: 767px) {
+  .dashLayout_content_body {
+    padding: 25px 15px 100px 15px;
+  }
+}
+.dashLayout .sideBar {
+  background: var(--settingcard);
+  display: flex;
+  flex-direction: column;
+}
+.dashLayout .sideBar_menuItem {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.dashLayout .sideBar_menuItem_top {
+  flex: 1;
+}
+
+.openNavbar {
+  width: 350px;
+  height: 100vh;
+  overflow: auto;
+}
+
+.CloaseNavbar {
+  width: 100px;
+  height: 100vh;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+.CloaseNavbar .reslogo {
+  width: 50px;
+}
+.CloaseNavbar .sideBar_menuItem {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.CloaseNavbar .sideBar_menuItem_top {
+  flex: 1;
+}
+.CloaseNavbar .sideBar_menuItem a {
+  padding: 0px 10px;
+  margin: unset;
+}
+.CloaseNavbar .sideBar_menuItem a span {
+  display: block;
+  width: 100%;
+}
+.CloaseNavbar .sideBar_menuItem a span svg {
+  display: flex;
+  margin: auto;
+}
+.CloaseNavbar .sideBar_menuItem a b {
+  display: none;
+}
+.CloaseNavbar .sideBar_menuItem_logout a {
+  height: 55px;
+}/*# sourceMappingURL=DashboardLayout.css.map */

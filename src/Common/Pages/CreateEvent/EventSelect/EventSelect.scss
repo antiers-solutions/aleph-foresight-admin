@@ -1,0 +1,36 @@
+.eventSelect {
+  .ant-select {
+    width: 100%;
+    height: 50px;
+    @media (max-width: 991px) {
+      height: 45px;
+    }
+    .ant-select-selector {
+      background: var(--InputBg);
+      border: unset;
+      color: var(--white);
+      font-size: var(--largeParaGraph16);
+      border-radius: 10px;
+    }
+    .ant-select-arrow {
+      .anticon {
+        color: var(--white);
+      }
+    }
+  }
+}
+.selectBody {
+  background: var(--InputBg);
+
+  .ant-select-item {
+    color: var(--white);
+  }
+}
+.btcSelect {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.ant-space-item {
+  width: 100%;
+}

@@ -1,0 +1,183 @@
+.createEvent {
+  max-width: 1043px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 43px;
+}
+.createEvent_top {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.createEvent_top_crypto {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+@media (max-width: 767px) {
+  .createEvent_top {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+.createEvent_info {
+  width: 100%;
+  position: relative;
+}
+.createEvent_info input {
+  height: 50px;
+  padding: 0 70px 0 20px;
+}
+.createEvent_info .usdt {
+  position: absolute;
+  right: 15px;
+  top: 58%;
+  color: var(--sidebarTab);
+  font-size: var(--largeParaGraph16);
+  font-weight: 500;
+}
+.createEvent_dateSecton {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+@media (max-width: 767px) {
+  .createEvent_dateSecton {
+    gap: 43px;
+  }
+}
+.createEvent_dateSecton .width-50 {
+  width: 50%;
+}
+@media (max-width: 1200px) {
+  .createEvent_dateSecton .width-50 {
+    width: 100%;
+  }
+  .createEvent_dateSecton .width-50 .ant-picker {
+    max-width: 100%;
+  }
+}
+.createEvent_dateSecton_duration {
+  display: flex;
+  align-items: baseline;
+  gap: 20px;
+  max-width: 506px;
+  width: 100%;
+  position: relative;
+}
+.createEvent_dateSecton_duration .error_red {
+  top: 89px;
+}
+@media (max-width: 767px) {
+  .createEvent_dateSecton_duration .error_red {
+    top: 156px;
+  }
+}
+@media (max-width: 767px) {
+  .createEvent_dateSecton_duration {
+    max-width: unset;
+    flex-direction: column;
+    gap: 0;
+  }
+}
+@media (max-width: 1200px) {
+  .createEvent_dateSecton_duration {
+    max-width: unset;
+    width: 100%;
+  }
+}
+.createEvent_dateSecton_duration .createEvent_info {
+  max-width: 242px;
+}
+@media (max-width: 767px) {
+  .createEvent_dateSecton_duration .createEvent_info {
+    max-width: unset;
+  }
+}
+@media (max-width: 1200px) {
+  .createEvent_dateSecton_duration .createEvent_info {
+    max-width: unset;
+    width: 100%;
+  }
+}
+@media (max-width: 1200px) {
+  .createEvent_dateSecton {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+.createEvent_descriptionText {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.createEvent_descriptionText textarea {
+  background-color: var(--InputBg);
+  border: none;
+  border-radius: 10px;
+  padding: 20px 15px;
+  color: var(--white);
+  font-size: var(--largeParaGraph16);
+  font-weight: 500;
+  min-height: 134px;
+}
+.createEvent_descriptionText textarea:focus {
+  outline: none;
+}
+.createEvent_btn {
+  width: 100%;
+  padding-top: 20px;
+}
+.createEvent_btn button {
+  max-width: 383px;
+  width: 100%;
+}
+@media (max-width: 991px) {
+  .createEvent_btn button {
+    max-width: 100%;
+  }
+}
+.createEvent .customInput input {
+  height: 50px;
+}
+@media (max-width: 991px) {
+  .createEvent .datePicker .ant-picker {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+.successModal {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+.successModal h4 {
+  font-weight: 600;
+  font-size: var(--heading26);
+  margin-bottom: 12px;
+  color: var(--white);
+}
+.successModal p {
+  font-size: var(--regularParagraph);
+  color: var(--text-D8D8D8);
+  padding-bottom: 40px;
+}
+.successModal button {
+  width: 100%;
+}
+
+.date_error {
+  position: relative;
+}
+.date_error p {
+  position: absolute;
+  top: 92px;
+}
+.date_error .customInput input {
+  height: 50px;
+}/*# sourceMappingURL=CreateEvent.css.map */

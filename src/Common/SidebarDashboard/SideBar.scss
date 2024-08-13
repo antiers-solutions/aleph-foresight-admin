@@ -1,0 +1,118 @@
+.sideBar {
+  &_logo {
+    display: flex;
+    justify-content: center;
+    padding: 27px 0;
+    position: relative;
+    align-items: center;
+    gap: 8px;
+    @media (max-width: 991px) {
+      padding: 9px 0;
+      margin-bottom: 25px;
+    }
+  }
+  &_menuItem {
+    a {
+      text-decoration: none;
+      display: flex;
+      gap: 10px;
+      color: var(--whiteFFF);
+      height: 55px;
+      align-items: center;
+      font-size: var(--largeParaGraph16);
+      font-weight: 500;
+      padding: 0px 40px;
+      margin: 0px 20px;
+      white-space: nowrap;
+    }
+    &_top {
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0 10px;
+        li {
+          margin-bottom: 5px;
+          a {
+            span {
+              line-height: 12px;
+            }
+          }
+          b {
+            font-weight: 500;
+          }
+          &:hover {
+            a {
+              background-color: var(--sidebarTab);
+              border-radius: 10px;
+              color: var(--Mainblack);
+              svg {
+                path {
+                  fill: var(--Mainblack);
+                }
+              }
+            }
+          }
+          .active {
+            background-color: var(--sidebarTab);
+            border-radius: 10px;
+            color: var(--Mainblack);
+            svg {
+              path {
+                fill: var(--Mainblack);
+              }
+            }
+          }
+        }
+      }
+    }
+    &_logout {
+      display: flex;
+      // justify-content: center;
+      text-align: center;
+      padding: 10px;
+      padding: 10px 0 50px 0;
+      @media (max-width: 991px) {
+        padding: 20px 10px;
+      }
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0 10px;
+        li {
+          margin-bottom: 5px;
+          a {
+            width: 100%;
+            span {
+              line-height: 12px;
+            }
+          }
+          b {
+            font-weight: 500;
+          }
+          &:hover {
+            a {
+              background-color: var(--sidebarTab);
+              border-radius: 10px;
+              color: var(--Mainblack);
+              svg {
+                path {
+                  fill: var(--Mainblack);
+                }
+              }
+            }
+          }
+          .active {
+            background-color: var(--sidebarTab);
+            border-radius: 10px;
+            color: var(--Mainblack);
+            svg {
+              path {
+                fill: var(--Mainblack);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

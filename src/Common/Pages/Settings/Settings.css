@@ -1,0 +1,42 @@
+.settings__cards {
+  display: flex;
+  gap: 30px;
+}
+@media (max-width: 1366px) {
+  .settings__cards {
+    gap: 20px;
+  }
+}
+@media (max-width: 991px) {
+  .settings__cards {
+    flex-wrap: wrap;
+  }
+}
+.settings__cards div {
+  max-width: 357px;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 10px;
+  height: 158px;
+  padding: 0;
+}
+@media (max-width: 991px) {
+  .settings__cards div {
+    max-width: 100%;
+  }
+}
+.settings__cards div p {
+  font-weight: 600;
+  padding-top: 15px;
+}
+
+.plateformContent {
+  width: 100%;
+}
+.plateformContent__button {
+  width: 100%;
+  margin-top: 49px;
+}
+.plateformContent__button button {
+  width: 100%;
+}/*# sourceMappingURL=Settings.css.map */
